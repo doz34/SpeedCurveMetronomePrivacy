@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - SpeedCurve Metronome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        p, ul {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .language-selector {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .language-selector button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .language-selector button.active {
+            background-color: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <button id="btn-fr" class="active">Français</button>
+        <button id="btn-en">English</button>
+    </div>
+
+    <!-- French Content -->
+    <div id="fr-content" class="content active">
+        <h1>Politique de confidentialité pour SpeedCurve Metronome</h1>
+
+        <p>Date d'entrée en vigueur : <strong>[Date actuelle, par exemple 15 mai 2024]</strong></p>
+
+        <p>Cette politique de confidentialité décrit comment l'application mobile "SpeedCurve Metronome" (développée par Doz34) traite les informations des utilisateurs.</p>
+
+        <h2>Collecte et Utilisation des Informations</h2>
+        <p>
+            L'application "SpeedCurve Metronome" est conçue pour être un outil de métronome simple et privé. Elle fonctionne entièrement hors ligne et ne nécessite aucune connexion internet pour son fonctionnement de base.
+        </p>
+        <p>
+            **L'application "SpeedCurve Metronome" ne collecte, ne stocke, ne transmet et ne traite aucune donnée personnelle identifiable ou non identifiable, ni aucune information sensible relative à l'appareil ou à l'utilisation.**
+        </p>
+        <ul>
+            <li>Nous n'utilisons aucun service d'analyse tiers (comme Google Analytics, Firebase Analytics, etc.).</li>
+            <li>Nous n'affichons aucune publicité au sein de l'application.</li>
+            <li>Nous n'accédons à aucune information personnelle sur votre appareil (comme votre localisation, vos contacts, votre microphone, votre appareil photo, etc.) au-delà de ce qui est strictement nécessaire au fonctionnement de base de l'application (par exemple, des permissions pour le son si l'application est un métronome).</li>
+            <li>Aucune donnée n'est envoyée à des serveurs externes.</li>
+        </ul>
+        <p>Votre vie privée est primordiale pour nous et nous nous engageons à maintenir nos applications aussi respectueuses de votre vie privée que possible.</p>
+
+        <h2>Modifications de cette Politique de Confidentialité</h2>
+        <p>
+            Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Nous vous conseillons de consulter cette politique de confidentialité périodiquement pour tout changement.
+        </p>
+
+        <h2>Contactez-nous</h2>
+        <p>
+            Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à l'adresse suivante : <a href="mailto:votre.email@example.com">votre.email@example.com</a>
+        </p>
+    </div>
+
+    <!-- English Content -->
+    <div id="en-content" class="content">
+        <h1>Privacy Policy for SpeedCurve Metronome</h1>
+
+        <p>Effective Date: <strong>[Date actuelle, e.g., May 15, 2024]</strong></p>
+
+        <p>This Privacy Policy describes how the "SpeedCurve Metronome" mobile application (developed by Doz34) handles user information.</p>
+
+        <h2>Information Collection and Use</h2>
+        <p>
+            The "SpeedCurve Metronome" application is designed to be a simple and private metronome tool. It operates entirely offline and does not require an internet connection for its basic functionality.
+        </p>
+        <p>
+            **The "SpeedCurve Metronome" application does not collect, store, transmit, or process any personally identifiable or non-identifiable data, nor any sensitive information related to the device or its usage.**
+        </p>
+        <ul>
+            <li>We do not use any third-party analytics services (such as Google Analytics, Firebase Analytics, etc.).</li>
+            <li>We do not display any advertisements within the application.</li>
+            <li>We do not access any personal information on your device (such as your location, contacts, microphone, camera, etc.) beyond what is strictly necessary for the basic functioning of the application (e.g., sound permissions if the app is a metronome).</li>
+            <li>No data is sent to external servers.</li>
+        </ul>
+        <p>Your privacy is paramount to us, and we are committed to keeping our applications as privacy-friendly as possible.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>
+            We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
+        </p>
+
+        <h2>Contact Us</h2>
+        <p>
+            If you have any questions about this Privacy Policy, you can contact us at: <a href="mailto:votre.email@example.com">your.email@example.com</a>
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btnFr = document.getElementById('btn-fr');
+            const btnEn = document.getElementById('btn-en');
+            const frContent = document.getElementById('fr-content');
+            const enContent = document.getElementById('en-content');
+
+            function showLanguage(lang) {
+                if (lang === 'fr') {
+                    frContent.classList.add('active');
+                    enContent.classList.remove('active');
+                    btnFr.classList.add('active');
+                    btnEn.classList.remove('active');
+                    document.documentElement.lang = 'fr'; // Set HTML lang attribute
+                } else {
+                    enContent.classList.add('active');
+                    frContent.classList.remove('active');
+                    btnEn.classList.add('active');
+                    btnFr.classList.remove('active');
+                    document.documentElement.lang = 'en'; // Set HTML lang attribute
+                }
+            }
+
+            // Try to detect user's browser language, default to French
+            const userLang = navigator.language || navigator.userLanguage;
+            if (userLang && userLang.startsWith('en')) {
+                showLanguage('en');
+            } else {
+                showLanguage('fr');
+            }
+
+            btnFr.addEventListener('click', () => showLanguage('fr'));
+            btnEn.addEventListener('click', () => showLanguage('en'));
+        });
+    </script>
+</body>
+</html>
